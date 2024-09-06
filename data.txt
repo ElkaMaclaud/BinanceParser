@@ -1,378 +1,390 @@
-BTC | Bitcoin                                : $53,842.99
-ETH | Ethereum                               : $2,255.21
-USDT | TetherUS                              : $1.00
-BNB | BNB                                    : $485.80
-SOL | Solana                                 : $125.82
-USDC | USD Coin                              : $1.00
-XRP | Ripple                                 : $0.5174
-DOGE | Dogecoin                              : $0.09198
-TRX | TRON                                   : $0.1481
-TON | Toncoin                                : $4.75
-ADA | Cardano                                : $0.3138
-AVAX | Avalanche                             : $20.95
-WBTC | Wrapped Bitcoin                       : $53,834.10
-SHIB | SHIBA INU                             : $0.00001278
-BCH | Bitcoin Cash                           : $299.60
-DOT | Polkadot                               : $3.95
-LINK | ChainLink                             : $9.58
-DAI | Dai                                    : $0.99904721
-LTC | Litecoin                               : $63.51
-NEAR | NEAR Protocol                         : $3.58
-UNI | Uniswap                                : $6.08
-ICP | Internet Computer                      : $7.01
-PEPE | Pepe                                  : $0.00000687
-WBETH | Wrapped Beacon ETH (WBETH)           : $2,365.21
-APT | Aptos                                  : $5.72
-FET | Artificial Superintelligence Alliance  : $1.06
-ETC | Ethereum Classic                       : $17.39
-XLM | Stellar Lumens                         : $0.0875
-FDUSD | First Digital USD                    : $0.9985
-SUI | Sui                                    : $0.8279
-STX | Stacks                                 : $1.38
-FIL | Filecoin                               : $3.33
-IMX | ImmutableX                             : $1.17
-RENDER | Render                              : $4.73
-AAVE | Aave                                  : $122.34
-ARB | Arbitrum                               : $0.5012
-TAO | Bittensor                              : $237.20
-HBAR | Hedera Hashgraph                      : $0.047
-MATIC | Polygon                              : $0.3641
-VET | VeChain                                : $0.02041
-OP | Optimism                                : $1.36
-INJ | Injective                              : $16.38
-WIF | Dogwifhat                              : $1.53
-ATOM | Cosmos                                : $3.86
-MKR | Maker                                  : $1,565.00
-AR | Arweave                                 : $20.92
-GRT | The Graph                              : $0.1324
-RUNE | THORChain                             : $3.49
-FLOKI | FLOKI                                : $0.00011814
-BONK | Bonk                                  : $0.00001587
-THETA | Theta Token                          : $1.11
-FTM | Fantom                                 : $0.3812
-ALGO | Algorand                              : $0.117
-JUP | Jupiter                                : $0.6991
-PYTH | Pyth Network                          : $0.257
-JASMY | JasmyCoin                            : $0.01868
-SEI | Sei                                    : $0.2707
-LDO | Lido DAO                               : $0.945
-TIA | Celestia                               : $4.00
-FLOW | Flow                                  : $0.518
-NOT | Notcoin                                : $0.0075
-OM | MANTRA                                  : $0.9087
-BTTC | BitTorrent                            : $0.00000077
-STRK | Starknet Token                        : $0.402
-QNT | Quant                                  : $58.50
-EOS | EOS                                    : $0.4605
-EGLD | MultiversX                            : $24.32
-1000SATS | 1000*SATS (Ordinals)              : $0.0003144
-AXS | Axie Infinity                          : $4.31
-NEO | NEO                                    : $9.08
-GALA | Gala                                  : $0.01774
-ORDI | ORDI                                  : $28.57
-XTZ | Tezos                                  : $0.6
-BEAMX | Beam (Formerly Merit Circle)         : $0.01184
-WLD | Worldcoin                              : $1.39
-XEC | eCash                                  : $0.00002896
-DOGS | Dogs                                  : $0.001098
-SAND | The Sandbox                           : $0.2411
-CFX | Conflux Network                        : $0.1281
-ENS | Ethereum Name Service                  : $16.16
-NEXO | Nexo                                  : $0.921
-W | Wormhole                                 : $0.1963
-RONIN | Ronin                                : $1.44
-TUSD | TrueUSD                               : $0.9984
-MANA | Decentraland                          : $0.2526
-KLAY | Kaia                                  : $0.1259
-PAXG | PAX Gold                              : $2,499.00
-MINA | Mina                                  : $0.3998
-ZEC | Zcash                                  : $27.09
-CHZ | Chiliz                                 : $0.0489
-LUNC | Terra Classic                         : $0.00007452
-BNX | BinaryX                                : $1.14
-CAKE | PancakeSwap                           : $1.60
-FTT | FTX Token                              : $1.27
-PENDLE | Pendle                              : $2.63
-DEXE | DeXe                                  : $7.19
-SNX | Synthetix Network Token                : $1.25
-IOTA | MIOTA                                 : $0.1191
-BOME | BOOK OF MEME                          : $0.005829
-ENA | Ethena                                 : $0.21
-APE | ApeCoin                                : $0.64
-LPT | Livepeer                               : $11.10
-AXL | Axelar                                 : $0.4866
-RAY | Raydium                                : $1.42
-ZK | zkSync                                  : $0.1019
-GNO | Gnosis                                 : $143.50
-ASTR | Astar                                 : $0.0519
-SFP | SafePal                                : $0.7548
-ROSE | Oasis Network                         : $0.05052
-COMP | Compound                              : $40.97
-ZRO | LayerZero                              : $3.23
-TFUEL | Theta Fuel                           : $0.05213
-CKB | CKB                                    : $0.007543
-TWT | Trust Wallet Token                     : $0.8058
-CRV | Curve                                  : $0.2694
-1INCH | 1inch                                : $0.2546
-KAVA | Kava                                  : $0.2811
-SUPER | SuperVerse                           : $0.6203
-BLUR | Blur                                  : $0.1629
-IOTX | IoTeX                                 : $0.03201
-AMP | AMP                                    : $0.003644
-DASH | Dash                                  : $23.34
-JST | JUST                                   : $0.02814
-PEOPLE | ConstitutionDAO                     : $0.05483
-AEVO | AEVO                                  : $0.309
-GMT | Green Metaverse Token                  : $0.1119
-KSM | Kusama                                 : $17.30
-GLM | Golem                                  : $0.2637
-SUN | SUN                                    : $0.02621
-HOT | Holo                                   : $0.001473
-ELF | aelf                                   : $0.3472
-WOO | WOO Network                            : $0.1388
-DYM | Dymension                              : $1.25
-OSMO | Osmosis                               : $0.3698
-JTO | JITO                                   : $1.99
-RSR | Reserve Rights                         : $0.004754
-ZIL | Zilliqa                                : $0.01283
-MANTA | Manta                                : $0.633
-SC | Siacoin                                 : $0.004086
-BAT | Basic Attention Token                  : $0.1538
-ENJ | Enjin Coin                             : $0.1348
-G | Gravity                                  : $0.03154
-ZRX | 0x                                     : $0.2683
-RVN | Ravencoin                              : $0.01581
-MEME | Memecoin                              : $0.00887
-CELO | Celo                                  : $0.4094
-LUNA | Terra                                 : $0.3246
-ANKR | Ankr                                  : $0.02228
-GMX | GMX                                    : $23.04
-ETHFI | ether.fi                             : $1.27
-QTUM | Qtum                                  : $2.10
-ID | Space ID                                : $0.3192
-ARKM | Arkham                                : $0.957
-RPL | Rocket Pool                            : $9.70
-GAS | NeoGas                                 : $3.06
-SSV | SSV Token                              : $18.09
-MASK | Mask Network                          : $1.94
-T | Threshold                                : $0.01971
-DYDX | dYdX                                  : $0.868
-FLUX | Flux                                  : $0.5326
-IO | IO.NET                                  : $1.54
-CVX | Convex Finance                         : $1.88
-DCR | Decred                                 : $10.94
-ALT | AltLayer                               : $0.0789
-POLYX | Polymesh                             : $0.2002
-UMA | UMA                                    : $2.12
-BICO | Biconomy                              : $0.2038
-METIS | MetisDAO                             : $28.83
-EDU | Open Campus                            : $0.5179
-SKL | SKALE Network                          : $0.02996
-ILV | Illuvium                               : $35.04
-LRC | Loopring                               : $0.119
-YFI | yearn.finance                          : $4,801.00
-ONE | Harmony                                : $0.01071
-BAND | BAND                                  : $1.01
-AUDIO | Audius                               : $0.1197
-SUSHI | Sushi                                : $0.569
-TRB | Tellor Tributes                        : $56.25
-KDA | Kadena                                 : $0.5
-ONT | Ontology                               : $0.1587
-VTHO | VeThor Token                          : $0.001793
-CHR | Chromia                                : $0.172
-FXS | Frax Share                             : $1.74
-SAGA | Saga                                  : $1.35
-GLMR | Glimmer                               : $0.1489
-ACH | Alchemy Pay                            : $0.0165
-YGG | Yield Guild Games                      : $0.3537
-VANRY | Vanar                                : $0.0861
-BANANA | Banana Gun                          : $38.44
-COTI | COTI                                  : $0.07676
-BB | BounceBit                               : $0.2893
-STORJ | Storj                                : $0.3299
-ZEN | Horizen                                : $7.79
-ICX | ICON                                   : $0.1172
-SXP | Solar                                  : $0.1858
-API3 | API3                                  : $1.30
-XNO | Nano                                   : $0.845
-XAI | Xai                                    : $0.1789
-DGB | DigiByte                               : $0.00626
-USDP | Pax Dollar                            : $1.00
-JOE | JOE                                    : $0.2941
-LSK | Lisk                                   : $0.73
-BAL | Balancer                               : $1.75
-RARE | SuperRare                             : $0.1426
-RLC | iExecRLC                               : $1.39
-ONG | Ontology Gas                           : $0.2568
-WAXP | WAX                                   : $0.02866
-CTSI | Cartesi                               : $0.1192
-XVS | Venus                                  : $6.05
-IOST | IOST                                  : $0.00453
-POND | Marlin                                : $0.01191
-NMR | Numeraire                              : $13.00
-DUSK | Dusk                                  : $0.2049
-PIXEL | Pixels                               : $0.1216
-SLP | Smooth Love Potion                     : $0.002248
-NTRN | Neutron                               : $0.332
-POWR | Powerledger                           : $0.1764
-PUNDIX | Pundi X                             : $0.3571
-TRU | TrueFi                                 : $0.0796
-PYR | Vulcan Forged PYR                      : $2.39
-PROM | Prometeus                             : $4.97
-RDNT | Radiant Capital                       : $0.0804
-USTC | TerraClassicUSD                       : $0.01539
-C98 | Coin98                                 : $0.1076
-CVC | Civic                                  : $0.0888
-SNT | Status                                 : $0.02241
-MAGIC | Magic                                : $0.3178
-WIN | WINkLink                               : $0.0000844
-STRAX | Stratis                              : $0.0426
-IQ | IQ                                      : $0.004419
-AUCTION | Auction                            : $12.73
-HIVE | Hive                                  : $0.1636
-HIGH | Highstreet                            : $1.23
-CELR | Celer Network                         : $0.01043
-DAR | Mines of Dalarnia                      : $0.13075
-CYBER | Cyber                                : $3.08
-SYS | Syscoin                                : $0.1007
-MOVR | Moonriver                             : $8.72
-PHA | Phala.Network                          : $0.106
-AI | Sleepless AI                            : $0.364
-KNC | KyberNetwork                           : $0.4224
-DODO | DODO                                  : $0.1038
-STPT | Standard Tokenization Protocol        : $0.03831
-SPELL | Spell Token                          : $0.0005
-REQ | Request Network                        : $0.0962
-STMX | StormX                                : $0.006132
-STEEM | Steem                                : $0.1558
-SYN | Synapse                                : $0.393
-RIF | Rootstock Infrastructure Framework     : $0.0726
-GNS | Gains Network                          : $2.16
-ACE | Fusionist                              : $2.00
-DENT | DENT                                  : $0.00071
-MAV | Maverick Protocol                      : $0.1867
-HOOK | Hooked Protocol                       : $0.3834
-CTK | Shentu                                 : $0.4989
-BAKE | BakeryToken                           : $0.232
-PORTAL | Portal                              : $0.242
-LQTY | Liquity                               : $0.703
-LEVER | LeverFi                              : $0.001969
-OXT | Orchid                                 : $0.0655
-QI | BENQI                                   : $0.01296
-AEUR | Anchored EUR                          : $1.11
-OMNI | Omni Network                          : $6.83
-ALICE | My Neighbor Alice                    : $0.901
-ACA | Acala Token                            : $0.0562
-HFT | Hashflow                               : $0.1339
-LISTA | Lista                                : $0.3215
-ARDR | Ardor                                 : $0.05962
-PHB | Phoenix                                : $1.12
-QKC | QuarkChain                             : $0.008056
-REZ | Renzo                                  : $0.0342
-SCRT | Secret                                : $0.194
-XVG | Verge                                  : $0.003371
-MTL | Metal DAO                              : $0.832
-BNT | Bancor                                 : $0.4425
-HIFI | Hifi Finance                          : $0.4021
-STG | Stargate Finance                       : $0.2666
-NFP | NFPrompt Token                         : $0.184
-MBOX | MOBOX                                 : $0.1361
-AGLD | Adventure Gold                        : $0.69
-RAD | Radworks                               : $1.01
-ARK | Ark                                    : $0.2826
-BADGER | Badger DAO                          : $2.53
-ARPA | ARPA Network                          : $0.0346
-BLZ | Bluzelle                               : $0.1135
-OGN | OriginToken                            : $0.0805
-NKN | NKN                                    : $0.063
-TKO | Tokocrypto                             : $0.2894
-REI | REI Network                            : $0.05034
-GTC | Gitcoin                                : $0.575
-ALPHA | Stella                               : $0.0515
-TLM | Alien Worlds                           : $0.00998
-SLF | SLF                                    : $0.4731
-WRX | WazirX                                 : $0.1195
-GHST | Aavegotchi                            : $0.834
-LTO | LTO Network                            : $0.1009
-ERN | Ethernity Chain                        : $1.96
-MBL | MovieBloc                              : $0.002387
-DATA | Streamr                               : $0.03767
-ATA | Automata                               : $0.0738
-TNSR | Tensor                                : $0.3146
-NULS | Nuls                                  : $0.3574
-MLN | Enzyme                                 : $14.67
-BSW | Biswap                                 : $0.0777
-CLV | Clover Finance                         : $0.03866
-FORTH | Ampleforth Governance Token          : $2.67
-VIC | Viction                                : $0.3903
-AERGO | Aergo                                : $0.0837
-IDEX | IDEX                                  : $0.04589
-DIA | DIA                                    : $0.3293
-ORN | Orion Protocol                         : $1.07
-VIDT | VIDT DAO                              : $0.04346
-COS | Contentos                              : $0.006984
-PERP | Perpetual Protocol                    : $0.5433
-BETA | Beta Finance                          : $0.04294
-REN | Ren                                    : $0.03479
-CTXC | Cortex                                : $0.1547
-LOKA | League of Kingdoms                    : $0.1946
-FUN | FunToken                               : $0.003098
-CREAM | Cream Finance                        : $17.96
-QUICK | QuickSwap                            : $0.04593
-LIT | Litentry                               : $0.594
-FLM | Flamingo                               : $0.0525
-BEL | Bella Protocol                         : $0.4803
-FIS | Stafi                                  : $0.2993
-KMD | Komodo                                 : $0.2273
-WAN | Wanchain                               : $0.154
-ALCX | Alchemix                              : $12.77
-FIDA | Solana Name Service                   : $0.2123
-KEY | Selfkey                                : $0.004782
-EURI | Eurite                                : $1.11
-DEGO | Dego Finance                          : $1.34
-FARM | Harvest Finance                       : $40.22
-PDA | PlayDapp                               : $0.0459
-VOXEL | Voxies                               : $0.1418
-PSG | Paris Saint-Germain Fan Token          : $2.23
-COMBO | COMBO                                : $0.3664
-AVA | AVA                                    : $0.4787
-ALPACA | Alpaca Finance                      : $0.1693
-CHESS | Tranchess                            : $0.1464
-MDT | Measurable Data Token                  : $0.03665
-LINA | Linear                                : $0.003606
-IRIS | IRISnet                               : $0.01412
-BIFI | Beefy.Finance                         : $281.60
-BURGER | BurgerCities                        : $0.3823
-VITE | VITE                                  : $0.01916
-AMB | AirDAO                                 : $0.00678
-UTK | xMoney                                 : $0.04126
-HARD | Kava Lend                             : $0.1528
-UNFI | Unifi Protocol DAO                    : $2.38
-DF | dForce                                  : $0.02895
-ADX | AdEx                                   : $0.1398
-UFT | UniLend                                : $0.2538
-FIO | FIO Protocol                           : $0.02456
-WING | Wing Token                            : $4.14
-IDRT | Rupiah Token                          : $0.00006464
-AKRO | Akropolis                             : $0.004161
-GFT | Gifto                                  : $0.01778
-BAR | FC Barcelona Fan Token BAR             : $1.64
-KP3R | Keep3rV1                              : $41.97
-PIVX | PIVX                                  : $0.1915
-CITY | Manchester City Fan Token             : $1.95
-FIRO | Firo                                  : $1.02
-SANTOS | Santos FC Fan Token                 : $2.54
-AST | AirSwap                                : $0.0763
-OG | OG Fan Token                            : $2.74
-VIB | Viberate                               : $0.06543
-ALPINE | Alpine F1 Team Fan Token            : $1.11
-ASR | AS Roma Fan Token                      : $1.82
-JUV | Juventus Fan Token                     : $1.53
-OOKI | OokiDAO                               : $0.001238
-TROY | Troy                                  : $0.001211
-PORTO | FC Porto Fan Token                   : $1.33
-OAX | openANX                                : $0.1341
-LAZIO | Lazio Fan Token                      : $1.18
-PROS | Prosper                               : $0.2904
-ACM | AC Milan Fan Token                     : $1.37
-ATM | Atlético de Madrid Fan Token           : $1.75
+BTC | Bitcoin                                : $53,693.00         | в рублях: null
+ETH | Ethereum                               : $2,233.51          | в рублях: null
+USDT | TetherUS                              : $1.00              | в рублях: null
+BNB | BNB                                    : $485.40            | в рублях: null
+SOL | Solana                                 : $125.99            | в рублях: null
+USDC | USD Coin                              : $1.00              | в рублях: null
+XRP | Ripple                                 : $0.5171            | в рублях: null
+DOGE | Dogecoin                              : $0.09171           | в рублях: null
+TRX | TRON                                   : $0.1479            | в рублях: null
+TON | Toncoin                                : $4.71              | в рублях: null
+ADA | Cardano                                : $0.3143            | в рублях: null
+AVAX | Avalanche                             : $21.08             | в рублях: null
+WBTC | Wrapped Bitcoin                       : $53,620.94         | в рублях: null
+SHIB | SHIBA INU                             : $0.00001272        | в рублях: null
+BCH | Bitcoin Cash                           : $298.20            | в рублях: null
+DOT | Polkadot                               : $3.95              | в рублях: null
+LINK | ChainLink                             : $9.58              | в рублях: null
+DAI | Dai                                    : $0.99679425        | в рублях: null
+LTC | Litecoin                               : $63.48             | в рублях: null
+NEAR | NEAR Protocol                         : $3.56              | в рублях: null
+UNI | Uniswap                                : $6.11              | в рублях: null
+ICP | Internet Computer                      : $6.99              | в рублях: null
+PEPE | Pepe                                  : $0.00000682        | в рублях: null
+WBETH | Wrapped Beacon ETH (WBETH)           : $2,342.12          | в рублях: null
+APT | Aptos                                  : $5.72              | в рублях: null
+FET | Artificial Superintelligence Alliance  : $1.05              | в рублях: null
+ETC | Ethereum Classic                       : $17.43             | в рублях: null
+XLM | Stellar Lumens                         : $0.0877            | в рублях: null
+FDUSD | First Digital USD                    : $0.9986            | в рублях: null
+SUI | Sui                                    : $0.8355            | в рублях: null
+BTC | Bitcoin                                : $53,693.00         | в рублях: null
+ETH | Ethereum                               : $2,233.51          | в рублях: null
+USDT | TetherUS                              : $1.00              | в рублях: null
+BNB | BNB                                    : $485.40            | в рублях: null
+SOL | Solana                                 : $125.99            | в рублях: null
+USDC | USD Coin                              : $1.00              | в рублях: null
+XRP | Ripple                                 : $0.5171            | в рублях: null
+DOGE | Dogecoin                              : $0.09171           | в рублях: null
+TRX | TRON                                   : $0.1479            | в рублях: null
+TON | Toncoin                                : $4.71              | в рублях: null
+ADA | Cardano                                : $0.3143            | в рублях: null
+AVAX | Avalanche                             : $21.08             | в рублях: null
+WBTC | Wrapped Bitcoin                       : $53,620.94         | в рублях: null
+SHIB | SHIBA INU                             : $0.00001272        | в рублях: null
+BCH | Bitcoin Cash                           : $298.20            | в рублях: null
+DOT | Polkadot                               : $3.95              | в рублях: null
+LINK | ChainLink                             : $9.58              | в рублях: null
+DAI | Dai                                    : $0.99679425        | в рублях: null
+LTC | Litecoin                               : $63.48             | в рублях: null
+NEAR | NEAR Protocol                         : $3.56              | в рублях: null
+UNI | Uniswap                                : $6.11              | в рублях: null
+ICP | Internet Computer                      : $6.99              | в рублях: null
+PEPE | Pepe                                  : $0.00000682        | в рублях: null
+WBETH | Wrapped Beacon ETH (WBETH)           : $2,342.12          | в рублях: null
+APT | Aptos                                  : $5.72              | в рублях: null
+FET | Artificial Superintelligence Alliance  : $1.05              | в рублях: null
+ETC | Ethereum Classic                       : $17.43             | в рублях: null
+XLM | Stellar Lumens                         : $0.0877            | в рублях: null
+FDUSD | First Digital USD                    : $0.9986            | в рублях: null
+SUI | Sui                                    : $0.8355            | в рублях: null
+STX | Stacks                                 : $1.35              | в рублях: null
+FIL | Filecoin                               : $3.27              | в рублях: null
+IMX | ImmutableX                             : $1.15              | в рублях: null
+AAVE | Aave                                  : $122.09            | в рублях: null
+RENDER | Render                              : $4.63              | в рублях: null
+ARB | Arbitrum                               : $0.4912            | в рублях: null
+TAO | Bittensor                              : $231.20            | в рублях: null
+HBAR | Hedera Hashgraph                      : $0.047             | в рублях: null
+MATIC | Polygon                              : $0.3628            | в рублях: null
+VET | VeChain                                : $0.02012           | в рублях: null
+OP | Optimism                                : $1.35              | в рублях: null
+INJ | Injective                              : $16.26             | в рублях: null
+ATOM | Cosmos                                : $3.80              | в рублях: null
+WIF | Dogwifhat                              : $1.47              | в рублях: null
+MKR | Maker                                  : $1,544.00          | в рублях: null
+AR | Arweave                                 : $20.45             | в рублях: null
+GRT | The Graph                              : $0.1303            | в рублях: null
+RUNE | THORChain                             : $3.42              | в рублях: null
+FLOKI | FLOKI                                : $0.00011576        | в рублях: null
+BONK | Bonk                                  : $0.00001568        | в рублях: null
+THETA | Theta Token                          : $1.09              | в рублях: null
+FTM | Fantom                                 : $0.3727            | в рублях: null
+ALGO | Algorand                              : $0.1151            | в рублях: null
+JUP | Jupiter                                : $0.6876            | в рублях: null
+PYTH | Pyth Network                          : $0.2526            | в рублях: null
+JASMY | JasmyCoin                            : $0.01802           | в рублях: null
+SEI | Sei                                    : $0.2654            | в рублях: null
+LDO | Lido DAO                               : $0.911             | в рублях: null
+TIA | Celestia                               : $3.88              | в рублях: null
+FLOW | Flow                                  : $0.516             | в рублях: null
+NOT | Notcoin                                : $0.00739           | в рублях: null
+OM | MANTRA                                  : $0.8943            | в рублях: null
+BTTC | BitTorrent                            : $0.00000077        | в рублях: null
+QNT | Quant                                  : $58.30             | в рублях: null
+STRK | Starknet Token                        : $0.39              | в рублях: null
+EOS | EOS                                    : $0.4542            | в рублях: null
+EGLD | MultiversX                            : $23.94             | в рублях: null
+1000SATS | 1000*SATS (Ordinals)              : $0.000305          | в рублях: null
+NEO | NEO                                    : $9.01              | в рублях: null
+AXS | Axie Infinity                          : $4.25              | в рублях: null
+XTZ | Tezos                                  : $0.597             | в рублях: null
+ORDI | ORDI                                  : $28.15             | в рублях: null
+GALA | Gala                                  : $0.01726           | в рублях: null
+BEAMX | Beam (Formerly Merit Circle)         : $0.0116            | в рублях: null
+XEC | eCash                                  : $0.00002874        | в рублях: null
+WLD | Worldcoin                              : $1.36              | в рублях: null
+DOGS | Dogs                                  : $0.0010748         | в рублях: null
+SAND | The Sandbox                           : $0.2364            | в рублях: null
+CFX | Conflux Network                        : $0.1251            | в рублях: null
+ENS | Ethereum Name Service                  : $15.81             | в рублях: null
+NEXO | Nexo                                  : $0.912             | в рублях: null
+TUSD | TrueUSD                               : $0.9984            | в рублях: null
+W | Wormhole                                 : $0.1918            | в рублях: null
+RONIN | Ronin                                : $1.41              | в рублях: null
+MANA | Decentraland                          : $0.2485            | в рублях: null
+KLAY | Kaia                                  : $0.1244            | в рублях: null
+PAXG | PAX Gold                              : $2,494.00          | в рублях: null
+MINA | Mina                                  : $0.3961            | в рублях: null
+CHZ | Chiliz                                 : $0.0487            | в рублях: null
+ZEC | Zcash                                  : $26.93             | в рублях: null
+LUNC | Terra Classic                         : $0.00007394        | в рублях: null
+BNX | BinaryX                                : $1.13              | в рублях: null
+CAKE | PancakeSwap                           : $1.57              | в рублях: null
+FTT | FTX Token                              : $1.25              | в рублях: null
+PENDLE | Pendle                              : $2.59              | в рублях: null
+DEXE | DeXe                                  : $7.11              | в рублях: null
+SNX | Synthetix Network Token                : $1.23              | в рублях: null
+IOTA | MIOTA                                 : $0.117             | в рублях: null
+BOME | BOOK OF MEME                          : $0.005648          | в рублях: null
+ENA | Ethena                                 : $0.203             | в рублях: null
+APE | ApeCoin                                : $0.636             | в рублях: null
+LPT | Livepeer                               : $10.80             | в рублях: null
+AXL | Axelar                                 : $0.4764            | в рублях: null
+RAY | Raydium                                : $1.40              | в рублях: null
+SFP | SafePal                                : $0.7553            | в рублях: null
+GNO | Gnosis                                 : $141.20            | в рублях: null
+ASTR | Astar                                 : $0.0509            | в рублях: null
+ZK | zkSync                                  : $0.099             | в рублях: null
+ROSE | Oasis Network                         : $0.05011           | в рублях: null
+COMP | Compound                              : $40.38             | в рублях: null
+ZRO | LayerZero                              : $3.15              | в рублях: null
+TFUEL | Theta Fuel                           : $0.05154           | в рублях: null
+CKB | CKB                                    : $0.007477          | в рублях: null
+TWT | Trust Wallet Token                     : $0.7955            | в рублях: null
+CRV | Curve                                  : $0.2646            | в рублях: null
+1INCH | 1inch                                : $0.2507            | в рублях: null
+KAVA | Kava                                  : $0.2773            | в рублях: null
+IOTX | IoTeX                                 : $0.03137           | в рублях: null
+SUPER | SuperVerse                           : $0.6036            | в рублях: null
+BLUR | Blur                                  : $0.1583            | в рублях: null
+AMP | AMP                                    : $0.00362           | в рублях: null
+JST | JUST                                   : $0.02809           | в рублях: null
+DASH | Dash                                  : $23.26             | в рублях: null
+GMT | Green Metaverse Token                  : $0.1102            | в рублях: null
+KSM | Kusama                                 : $17.04             | в рублях: null
+PEOPLE | ConstitutionDAO                     : $0.05195           | в рублях: null
+AEVO | AEVO                                  : $0.302             | в рублях: null
+SUN | SUN                                    : $0.02597           | в рублях: null
+GLM | Golem                                  : $0.2577            | в рублях: null
+ELF | aelf                                   : $0.3442            | в рублях: null
+HOT | Holo                                   : $0.001448          | в рублях: null
+OSMO | Osmosis                               : $0.369             | в рублях: null
+WOO | WOO Network                            : $0.1355            | в рублях: null
+JTO | JITO                                   : $1.94              | в рублях: null
+DYM | Dymension                              : $1.20              | в рублях: null
+RSR | Reserve Rights                         : $0.004632          | в рублях: null
+ZIL | Zilliqa                                : $0.01257           | в рублях: null
+SC | Siacoin                                 : $0.004057          | в рублях: null
+MANTA | Manta                                : $0.619             | в рублях: null
+G | Gravity                                  : $0.03157           | в рублях: null
+BAT | Basic Attention Token                  : $0.1526            | в рублях: null
+ENJ | Enjin Coin                             : $0.1321            | в рублях: null
+ZRX | 0x                                     : $0.263             | в рублях: null
+CELO | Celo                                  : $0.4033            | в рублях: null
+RVN | Ravencoin                              : $0.01549           | в рублях: null
+QTUM | Qtum                                  : $2.09              | в рублях: null
+MEME | Memecoin                              : $0.00866           | в рублях: null
+LUNA | Terra                                 : $0.3172            | в рублях: null
+GMX | GMX                                    : $22.58             | в рублях: null
+ANKR | Ankr                                  : $0.02169           | в рублях: null
+ETHFI | ether.fi                             : $1.23              | в рублях: null
+ID | Space ID                                : $0.3128            | в рублях: null
+ARKM | Arkham                                : $0.935             | в рублях: null
+GAS | NeoGas                                 : $3.01              | в рублях: null
+RPL | Rocket Pool                            : $9.43              | в рублях: null
+T | Threshold                                : $0.01966           | в рублях: null
+MASK | Mask Network                          : $1.90              | в рублях: null
+SSV | SSV Token                              : $17.57             | в рублях: null
+DYDX | dYdX                                  : $0.844             | в рублях: null
+FLUX | Flux                                  : $0.5238            | в рублях: null
+CVX | Convex Finance                         : $1.86              | в рублях: null
+IO | IO.NET                                  : $1.50              | в рублях: null
+DCR | Decred                                 : $10.83             | в рублях: null
+UMA | UMA                                    : $2.10              | в рублях: null
+POLYX | Polymesh                             : $0.1967            | в рублях: null
+ALT | AltLayer                               : $0.0769            | в рублях: null
+BICO | Biconomy                              : $0.2005            | в рублях: null
+EDU | Open Campus                            : $0.5107            | в рублях: null
+METIS | MetisDAO                             : $28.12             | в рублях: null
+SKL | SKALE Network                          : $0.02954           | в рублях: null
+ILV | Illuvium                               : $34.54             | в рублях: null
+LRC | Loopring                               : $0.1168            | в рублях: null
+YFI | yearn.finance                          : $4,746.00          | в рублях: null
+AUDIO | Audius                               : $0.1194            | в рублях: null
+BAND | BAND                                  : $0.994             | в рублях: null
+ONE | Harmony                                : $0.01053           | в рублях: null
+SUSHI | Sushi                                : $0.56              | в рублях: null
+TRB | Tellor Tributes                        : $54.95             | в рублях: null
+VTHO | VeThor Token                          : $0.001768          | в рублях: null
+KDA | Kadena                                 : $0.491             | в рублях: null
+ONT | Ontology                               : $0.1561            | в рублях: null
+CHR | Chromia                                : $0.1683            | в рублях: null
+FXS | Frax Share                             : $1.71              | в рублях: null
+SAGA | Saga                                  : $1.31              | в рублях: null
+GLMR | Glimmer                               : $0.1465            | в рублях: null
+ACH | Alchemy Pay                            : $0.01618           | в рублях: null
+COTI | COTI                                  : $0.07579           | в рублях: null
+YGG | Yield Guild Games                      : $0.3444            | в рублях: null
+BANANA | Banana Gun                          : $37.73             | в рублях: null
+VANRY | Vanar                                : $0.0837            | в рублях: null
+BB | BounceBit                               : $0.2812            | в рублях: null
+STORJ | Storj                                : $0.3231            | в рублях: null
+ZEN | Horizen                                : $7.68              | в рублях: null
+ICX | ICON                                   : $0.1151            | в рублях: null
+SXP | Solar                                  : $0.1842            | в рублях: null
+XNO | Nano                                   : $0.836             | в рублях: null
+API3 | API3                                  : $1.28              | в рублях: null
+USDP | Pax Dollar                            : $1.00              | в рублях: null
+DGB | DigiByte                               : $0.00619           | в рублях: null
+XAI | Xai                                    : $0.1737            | в рублях: null
+LSK | Lisk                                   : $0.72              | в рублях: null
+JOE | JOE                                    : $0.289             | в рублях: null
+BAL | Balancer                               : $1.72              | в рублях: null
+RARE | SuperRare                             : $0.1406            | в рублях: null
+WAXP | WAX                                   : $0.02832           | в рублях: null
+RLC | iExecRLC                               : $1.36              | в рублях: null
+ONG | Ontology Gas                           : $0.2523            | в рублях: null
+XVS | Venus                                  : $6.02              | в рублях: null
+CTSI | Cartesi                               : $0.1167            | в рублях: null
+IOST | IOST                                  : $0.0045            | в рублях: null
+POND | Marlin                                : $0.01185           | в рублях: null
+DUSK | Dusk                                  : $0.2017            | в рублях: null
+NMR | Numeraire                              : $12.74             | в рублях: null
+SLP | Smooth Love Potion                     : $0.002238          | в рублях: null
+PUNDIX | Pundi X                             : $0.3548            | в рублях: null
+PIXEL | Pixels                               : $0.1188            | в рублях: null
+NTRN | Neutron                               : $0.327             | в рублях: null
+POWR | Powerledger                           : $0.1737            | в рублях: null
+TRU | TrueFi                                 : $0.0778            | в рублях: null
+RDNT | Radiant Capital                       : $0.0799            | в рублях: null
+PYR | Vulcan Forged PYR                      : $2.35              | в рублях: null
+PROM | Prometeus                             : $4.92              | в рублях: null
+CVC | Civic                                  : $0.0879            | в рублях: null
+USTC | TerraClassicUSD                       : $0.01501           | в рублях: null
+C98 | Coin98                                 : $0.1055            | в рублях: null
+SNT | Status                                 : $0.02225           | в рублях: null
+IQ | IQ                                      : $0.004416          | в рублях: null
+WIN | WINkLink                               : $0.000084          | в рублях: null
+STRAX | Stratis                              : $0.0424            | в рублях: null
+MAGIC | Magic                                : $0.3107            | в рублях: null
+AUCTION | Auction                            : $12.66             | в рублях: null
+HIVE | Hive                                  : $0.1627            | в рублях: null
+HIGH | Highstreet                            : $1.20              | в рублях: null
+CELR | Celer Network                         : $0.01027           | в рублях: null
+DAR | Mines of Dalarnia                      : $0.12857           | в рублях: null
+CYBER | Cyber                                : $3.02              | в рублях: null
+PHA | Phala.Network                          : $0.1047            | в рублях: null
+SYS | Syscoin                                : $0.0987            | в рублях: null
+MOVR | Moonriver                             : $8.57              | в рублях: null
+KNC | KyberNetwork                           : $0.4155            | в рублях: null
+AI | Sleepless AI                            : $0.354             | в рублях: null
+DODO | DODO                                  : $0.1026            | в рублях: null
+SPELL | Spell Token                          : $0.0004984         | в рублях: null
+STMX | StormX                                : $0.006123          | в рублях: null
+STPT | Standard Tokenization Protocol        : $0.03793           | в рублях: null
+REQ | Request Network                        : $0.0948            | в рублях: null
+STEEM | Steem                                : $0.1531            | в рублях: null
+SYN | Synapse                                : $0.3854            | в рублях: null
+RIF | Rootstock Infrastructure Framework     : $0.0714            | в рублях: null
+GNS | Gains Network                          : $2.13              | в рублях: null
+DENT | DENT                                  : $0.0007            | в рублях: null
+ACE | Fusionist                              : $1.95              | в рублях: null
+HOOK | Hooked Protocol                       : $0.3762            | в рублях: null
+MAV | Maverick Protocol                      : $0.1805            | в рублях: null
+CTK | Shentu                                 : $0.4915            | в рублях: null
+BAKE | BakeryToken                           : $0.2274            | в рублях: null
+PORTAL | Portal                              : $0.2362            | в рублях: null
+LEVER | LeverFi                              : $0.001933          | в рублях: null
+LQTY | Liquity                               : $0.686             | в рублях: null
+OXT | Orchid                                 : $0.0648            | в рублях: null
+AEUR | Anchored EUR                          : $1.11              | в рублях: null
+QI | BENQI                                   : $0.01272           | в рублях: null
+OMNI | Omni Network                          : $6.63              | в рублях: null
+ALICE | My Neighbor Alice                    : $0.884             | в рублях: null
+ARDR | Ardor                                 : $0.05985           | в рублях: null
+ACA | Acala Token                            : $0.0552            | в рублях: null
+HFT | Hashflow                               : $0.131             | в рублях: null
+LISTA | Lista                                : $0.3117            | в рублях: null
+QKC | QuarkChain                             : $0.008042          | в рублях: null
+PHB | Phoenix                                : $1.09              | в рублях: null
+SCRT | Secret                                : $0.1935            | в рублях: null
+XVG | Verge                                  : $0.003307          | в рублях: null
+REZ | Renzo                                  : $0.0332            | в рублях: null
+MTL | Metal DAO                              : $0.814             | в рублях: null
+BNT | Bancor                                 : $0.4314            | в рублях: null
+HIFI | Hifi Finance                          : $0.3955            | в рублях: null
+STG | Stargate Finance                       : $0.2634            | в рублях: null
+NFP | NFPrompt Token                         : $0.1793            | в рублях: null
+AGLD | Adventure Gold                        : $0.678             | в рублях: null
+MBOX | MOBOX                                 : $0.1334            | в рублях: null
+RAD | Radworks                               : $0.995             | в рублях: null
+ARK | Ark                                    : $0.2783            | в рублях: null
+BADGER | Badger DAO                          : $2.46              | в рублях: null
+ARPA | ARPA Network                          : $0.03367           | в рублях: null
+TKO | Tokocrypto                             : $0.2872            | в рублях: null
+OGN | OriginToken                            : $0.0793            | в рублях: null
+BLZ | Bluzelle                               : $0.1111            | в рублях: null
+NKN | NKN                                    : $0.062             | в рублях: null
+REI | REI Network                            : $0.04979           | в рублях: null
+GTC | Gitcoin                                : $0.561             | в рублях: null
+ALPHA | Stella                               : $0.0508            | в рублях: null
+WRX | WazirX                                 : $0.1189            | в рублях: null
+TLM | Alien Worlds                           : $0.00978           | в рублях: null
+SLF | SLF                                    : $0.4623            | в рублях: null
+GHST | Aavegotchi                            : $0.82              | в рублях: null
+LTO | LTO Network                            : $0.0993            | в рублях: null
+MBL | MovieBloc                              : $0.002388          | в рублях: null
+ERN | Ethernity Chain                        : $1.92              | в рублях: null
+DATA | Streamr                               : $0.0376            | в рублях: null
+VIC | Viction                                : $0.4027            | в рублях: null
+ATA | Automata                               : $0.0723            | в рублях: null
+MLN | Enzyme                                 : $14.51             | в рублях: null
+NULS | Nuls                                  : $0.3499            | в рублях: null
+TNSR | Tensor                                : $0.3062            | в рублях: null
+CLV | Clover Finance                         : $0.03808           | в рублях: null
+BSW | Biswap                                 : $0.0755            | в рублях: null
+FORTH | Ampleforth Governance Token          : $2.64              | в рублях: null
+VIDT | VIDT DAO                              : $0.0441            | в рублях: null
+AERGO | Aergo                                : $0.0827            | в рублях: null
+IDEX | IDEX                                  : $0.0452            | в рублях: null
+ORN | Orion Protocol                         : $1.06              | в рублях: null
+DIA | DIA                                    : $0.3232            | в рублях: null
+COS | Contentos                              : $0.006903          | в рублях: null
+BETA | Beta Finance                          : $0.04252           | в рублях: null
+PERP | Perpetual Protocol                    : $0.5325            | в рублях: null
+CTXC | Cortex                                : $0.1539            | в рублях: null
+REN | Ren                                    : $0.03403           | в рублях: null
+FUN | FunToken                               : $0.003109          | в рублях: null
+LOKA | League of Kingdoms                    : $0.1903            | в рублях: null
+QUICK | QuickSwap                            : $0.04598           | в рублях: null
+CREAM | Cream Finance                        : $17.63             | в рублях: null
+LIT | Litentry                               : $0.576             | в рублях: null
+FLM | Flamingo                               : $0.0515            | в рублях: null
+BEL | Bella Protocol                         : $0.4726            | в рублях: null
+FIS | Stafi                                  : $0.2972            | в рублях: null
+KMD | Komodo                                 : $0.2242            | в рублях: null
+WAN | Wanchain                               : $0.1522            | в рублях: null
+ALCX | Alchemix                              : $12.56             | в рублях: null
+FIDA | Solana Name Service                   : $0.2091            | в рублях: null
+KEY | Selfkey                                : $0.004756          | в рублях: null
+EURI | Eurite                                : $1.11              | в рублях: null
+DEGO | Dego Finance                          : $1.33              | в рублях: null
+FARM | Harvest Finance                       : $39.67             | в рублях: null
+PDA | PlayDapp                               : $0.0453            | в рублях: null
+PSG | Paris Saint-Germain Fan Token          : $2.21              | в рублях: null
+VOXEL | Voxies                               : $0.1386            | в рублях: null
+COMBO | COMBO                                : $0.3617            | в рублях: null
+AVA | AVA                                    : $0.4726            | в рублях: null
+ALPACA | Alpaca Finance                      : $0.1669            | в рублях: null
+CHESS | Tranchess                            : $0.1424            | в рублях: null
+MDT | Measurable Data Token                  : $0.03622           | в рублях: null
+LINA | Linear                                : $0.003517          | в рублях: null
+IRIS | IRISnet                               : $0.01388           | в рублях: null
+BIFI | Beefy.Finance                         : $276.00            | в рублях: null
+BURGER | BurgerCities                        : $0.3752            | в рублях: null
+VITE | VITE                                  : $0.0187            | в рублях: null
+HARD | Kava Lend                             : $0.1521            | в рублях: null
+AMB | AirDAO                                 : $0.00659           | в рублях: null
+UTK | xMoney                                 : $0.04073           | в рублях: null
+UNFI | Unifi Protocol DAO                    : $2.33              | в рублях: null
+DF | dForce                                  : $0.0287            | в рублях: null
+ADX | AdEx                                   : $0.1382            | в рублях: null
+UFT | UniLend                                : $0.2514            | в рублях: null
+FIO | FIO Protocol                           : $0.02426           | в рублях: null
+IDRT | Rupiah Token                          : $0.00006464        | в рублях: null
+WING | Wing Token                            : $4.09              | в рублях: null
+AKRO | Akropolis                             : $0.0041            | в рублях: null
+GFT | Gifto                                  : $0.01757           | в рублях: null
+BAR | FC Barcelona Fan Token BAR             : $1.63              | в рублях: null
+KP3R | Keep3rV1                              : $41.12             | в рублях: null
