@@ -7,34 +7,35 @@ import fs from "fs";
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
   let rubleExchangeRate;
-  await page.goto(
-    "https://www.google.com/search?q=%D0%BA%D1%83%D1%80%D1%81+%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%B0+%D0%BA+%D1%80%D1%83%D0%B1%D0%BB%D1%8E&oq=rehc+ljkkfhf&gs_lcrp=EgZjaHJvbWUqDwgCEAAYChiDARixAxiABDIGCAAQRRg5MhIIARAAGAoYgwEYsQMYyQMYgAQyDwgCEAAYChiDARixAxiABDISCAMQABgKGIMBGJIDGLEDGIAEMg8IBBAAGAoYgwEYsQMYgAQyDwgFEAAYChiDARixAxiABDIJCAYQABgKGIAEMgwIBxAAGAoYsQMYgAQyDAgIEAAYChixAxiABDIJCAkQABgKGIAE0gEINTM5OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
-    {
-      waitUntil: "domcontentloaded",
-    }
-  );
-  //  await page.goto(
-  //   "https://finance.rambler.ru/currencies/USD/",
+  // await page.goto(
+  //   "https://www.google.com/search?q=%D0%BA%D1%83%D1%80%D1%81+%D0%B4%D0%BE%D0%BB%D0%BB%D0%B0%D1%80%D0%B0+%D0%BA+%D1%80%D1%83%D0%B1%D0%BB%D1%8E&oq=rehc+ljkkfhf&gs_lcrp=EgZjaHJvbWUqDwgCEAAYChiDARixAxiABDIGCAAQRRg5MhIIARAAGAoYgwEYsQMYyQMYgAQyDwgCEAAYChiDARixAxiABDISCAMQABgKGIMBGJIDGLEDGIAEMg8IBBAAGAoYgwEYsQMYgAQyDwgFEAAYChiDARixAxiABDIJCAYQABgKGIAEMgwIBxAAGAoYsQMYgAQyDAgIEAAYChixAxiABDIJCAkQABgKGIAE0gEINTM5OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8",
   //   {
-  //     waitUntil: "networkidle2", timeout: 30000,
+  //     waitUntil: "domcontentloaded",
   //   }
   // );
-  // await page.waitForSelector('._ZXx92_y', {visible: true})
-  // rubleExchangeRate = await page.evaluate(() => {
-  //   ru = document.querySelector('._ZXx92_y').innerText.trim()
-  //   return ru
-  // })
+   await page.goto(
+    "https://finance.rambler.ru/currencies/USD/",
+    {
+      waitUntil: "networkidle2", timeout: 30000,
+    }
+  );  
   await page.evaluate(() => {
     window.scrollBy(0, 300);
   });
   await new Promise((resolve) => {
     setTimeout(resolve, 3000);
   });
-  await page.waitForSelector('.SwHCTb', {visible: true})
+  await page.waitForSelector('.PhlTQDaw ._ZXx92_y', {visible: true})
   rubleExchangeRate = await page.evaluate(() => {
-    ru = document.querySelector('.SwHCTb').innerText.trim().replace(",", ".")
-    return parseFloat(ru)
+    ru = document.querySelector('.PhlTQDaw ._ZXx92_y').innerText.trim()
+    return ru
   })
+
+  // await page.waitForSelector('.SwHCTb', {visible: true})
+  // rubleExchangeRate = await page.evaluate(() => {
+  //   ru = document.querySelector('.SwHCTb').innerText.trim().replace(",", ".")
+  //   return parseFloat(ru)
+  // })
   console.log("RubleExchangeRate: ", rubleExchangeRate)
 
 
@@ -80,7 +81,7 @@ import fs from "fs";
     })
     await page.waitForSelector("#next-page", { visible: true })
     await page.click("#next-page")
-    await new Promise((resolve) => {setTimeout(resolve, 3000)})
+    await new Promise((resolve) => {setTimeout(resolve, 500)})
     i++
     arrCurrency.push(...arr)
   }
