@@ -28,12 +28,12 @@ import fs from "fs";
     window.scrollBy(0, 300);
   });
   await new Promise((resolve) => {
-    setTimeout(resolve, 5000);
+    setTimeout(resolve, 3000);
   });
-  await page.waitForSelector('._ZXx92_y', {visible: true})
+  await page.waitForSelector('.SwHCTb', {visible: true})
   rubleExchangeRate = await page.evaluate(() => {
-    ru = document.querySelector('._ZXx92_y').innerText.trim()
-    return ru
+    ru = document.querySelector('.SwHCTb').innerText.trim().replace(",", ".")
+    return parseFloat(ru)
   })
   console.log("RubleExchangeRate: ", rubleExchangeRate)
 
@@ -60,33 +60,27 @@ import fs from "fs";
   const arrCurrency = [];
   let i = 0
   while (pageCount > i) {
-    const arr = await page.evaluate((rubleExchangeRate) => {
+    const arr = await page.evaluate((rate) => {
       function floatParser(str, rate) {
-        let result;
-        if(str.includes(",")) {
-          result = str.replace(/[^0-9,]/g, "").replace(",", ".")
-        } else {
-          result = str.replace(/[^0-9.]/g, "")
-        }
-        return (parseFloat(result) * rate).toFixed(2)
+        return (parseFloat(str.replace(/[^0-9.]/g, "")) * rate).toFixed(2)
       }
       let list = Array.from(
         document.querySelectorAll('div[direction="ltr"]'),
         (el) => ({
           name: el.querySelector(".tab__column").innerText.replace("\n", " | ").padStart(45, ' '),
-          price: el.querySelector('div[data-area="right"').innerText.trim().replace(",", ".").padStart(18, ' '),
-          priceRu: floatParser(el.querySelector('div[data-area="right"').innerText.trim(), rubleExchangeRate || 90.6)
+          price: el.querySelector('div[data-area="right"').innerText.trim().replace(",", " ").padStart(18, ' '),
+          priceRu: floatParser(el.querySelector('div[data-area="right"').innerText.trim(), rate)
         })
       );
       return list
-    });
+    }, rubleExchangeRate);
 
     await page.evaluate(() => {
       window.scrollBy(0, 500); 
     })
     await page.waitForSelector("#next-page", { visible: true })
     await page.click("#next-page")
-    await new Promise((resolve) => {setTimeout(resolve, 5000)})
+    await new Promise((resolve) => {setTimeout(resolve, 3000)})
     i++
     arrCurrency.push(...arr)
   }
