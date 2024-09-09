@@ -1,9 +1,9 @@
-import puppeteer from "puppeteer-extra"
+import puppeteer from "puppeteer-extra";
 import Plagin from "puppeteer-extra-plugin-stealth";
 import fs from "fs";
 
 (async () => {
-  puppeteer.use(Plagin())
+  puppeteer.use(Plagin());
   const browser = await puppeteer.launch({ headless: false });
   const page = await browser.newPage();
   let rubleExchangeRate;
@@ -13,81 +13,114 @@ import fs from "fs";
   //     waitUntil: "domcontentloaded",
   //   }
   // );
-   await page.goto(
-    "https://finance.rambler.ru/currencies/USD/",
-    {
-      waitUntil: "networkidle2", timeout: 30000,
-    }
-  );  
+  await page.goto("https://finance.rambler.ru/currencies/USD/", {
+    waitUntil: "networkidle2",
+    timeout: 30000,
+  });
   await page.evaluate(() => {
     window.scrollBy(0, 300);
   });
   await new Promise((resolve) => {
     setTimeout(resolve, 3000);
   });
-  await page.waitForSelector('.PhlTQDaw ._ZXx92_y', {visible: true})
+  await page.waitForSelector(".PhlTQDaw ._ZXx92_y", { visible: true });
   rubleExchangeRate = await page.evaluate(() => {
-    ru = document.querySelector('.PhlTQDaw ._ZXx92_y').innerText.trim()
-    return ru
-  })
+    ru = document.querySelector(".PhlTQDaw ._ZXx92_y").innerText.trim();
+    return ru;
+  });
 
   // await page.waitForSelector('.SwHCTb', {visible: true})
   // rubleExchangeRate = await page.evaluate(() => {
   //   ru = document.querySelector('.SwHCTb').innerText.trim().replace(",", ".")
   //   return parseFloat(ru)
   // })
-  console.log("RubleExchangeRate: ", rubleExchangeRate)
-
 
   // Идём в binance
   await page.goto("https://www.binance.com/ru/markets/overview?p=1", {
-    waitUntil: "networkidle2", timeout: 30000,
+    waitUntil: "networkidle2",
+    timeout: 30000,
   });
   page.on("console", (msg) => {
-    console.log("Браузер: ", msg.text())
-  })
+    console.log("Браузер: ", msg.text());
+  });
   await page.setViewport({ width: 1280, height: 1024 });
   await page.evaluate(() => {
-    window.scrollBy(0, 500); 
+    window.scrollBy(0, 500);
   });
-  
-  await page.waitForSelector("button.css-fyte2i:nth-last-child(2)", { visible: true });
+
+  await page.waitForSelector("button.css-fyte2i:nth-last-child(2)", {
+    visible: true,
+  });
 
   const pageCount = await page.evaluate(() => {
-    const element = document.querySelector("button.css-fyte2i:nth-last-child(2)")
-    return element ? parseInt(element.innerText.replace(/[^0-9]/g, ''), 10) : 1
-  })
-  
+    const element = document.querySelector(
+      "button.css-fyte2i:nth-last-child(2)"
+    );
+    return element ? parseInt(element.innerText.replace(/[^0-9]/g, ""), 10) : 1;
+  });
+
   const arrCurrency = [];
-  let i = 0
+  let i = 0;
   while (pageCount > i) {
     const arr = await page.evaluate((rate) => {
       function floatParser(str, rate) {
-        return (parseFloat(str.replace(/[^0-9.]/g, "")) * rate).toFixed(2)
+        return (parseFloat(str.replace(/[^0-9.]/g, "")) * rate).toFixed(2);
       }
       let list = Array.from(
         document.querySelectorAll('div[direction="ltr"]'),
         (el) => ({
-          name: el.querySelector(".tab__column").innerText.replace("\n", " | ").padStart(45, ' '),
-          price: el.querySelector('div[data-area="right"').innerText.trim().replace(",", " ").padStart(18, ' '),
-          priceRu: floatParser(el.querySelector('div[data-area="right"').innerText.trim(), rate)
+          name: el
+            .querySelector(".tab__column")
+            .innerText.replace("\n", " | ")
+            .padStart(40, " "),
+          price: el
+            .querySelector('div[data-area="right"')
+            .innerText.trim()
+            .replace(",", " ")
+            .padStart(18, " "),
+          priceRu: floatParser(
+            el.querySelector('div[data-area="right"').innerText.trim(),
+            rate
+          ),
         })
       );
-      return list
+      return list;
     }, rubleExchangeRate);
 
     await page.evaluate(() => {
-      window.scrollBy(0, 500); 
-    })
-    await page.waitForSelector("#next-page", { visible: true })
-    await page.click("#next-page")
-    await new Promise((resolve) => {setTimeout(resolve, 500)})
-    i++
-    arrCurrency.push(...arr)
+      window.scrollBy(0, 500);
+    });
+    await page.waitForSelector("#next-page", { visible: true });
+    await page.click("#next-page");
+    await new Promise((resolve) => {
+      setTimeout(resolve, 500);
+    });
+    i++;
+    arrCurrency.push(...arr);
   }
+  const date = new Date();
+  const options = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hour12: false,
+  };
+  const formattedDate = date.toLocaleDateString("ru-RU", options);
 
-  fs.writeFileSync("data.txt", arrCurrency.map(el=>`${el.name}: ${el.price} | в рублях: ${el.priceRu}`).join("\n"))
-  console.log("Закончили!")
-  
-  await browser.close()
+  fs.writeFileSync(
+    "data.txt",
+    `${"\t".repeat(7)}Сегодня:  ${formattedDate}\n${
+      "\t".repeat(7)
+    }Курс доллара ${rubleExchangeRate} руб.\n${
+      "\t".repeat(7)
+    }Курсы валют на сегодня:\n\n` +
+      arrCurrency
+        .map((el) => `${el.name}: ${el.price} | в рублях: ${el.priceRu}`)
+        .join("\n")
+  );
+  console.log("Закончили!");
+  await browser.close();
 })();
