@@ -4,7 +4,7 @@ import fs from "fs";
 
 (async () => {
   puppeteer.use(Plagin());
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({headless: true});
   const page = await browser.newPage();
   await page.setUserAgent(
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
@@ -26,12 +26,11 @@ import fs from "fs";
   await new Promise((resolve) => {
     setTimeout(resolve, 3000);
   });
-  await page.waitForSelector(".PhlTQDaw ._ZXx92_y", { visible: true });
+  await page.waitForSelector("._ZXx92_y.CVUkSwiH", { visible: true });
   rubleExchangeRate = await page.evaluate(() => {
-    ru = document.querySelector(".PhlTQDaw ._ZXx92_y").innerText.trim();
+    ru = document.querySelector("._ZXx92_y.CVUkSwiH").innerText.trim();
     return ru;
   });
-
   // await page.waitForSelector('.SwHCTb', {visible: true})
   // rubleExchangeRate = await page.evaluate(() => {
   //   ru = document.querySelector('.SwHCTb').innerText.trim().replace(",", ".")
@@ -50,51 +49,60 @@ import fs from "fs";
   await page.evaluate(() => {
     window.scrollBy(0, 500);
   });
+  await new Promise((resolve) => {
+    setTimeout(resolve, 500);
+  });
 
-  await page.waitForSelector("button.css-fyte2i:nth-last-child(2)", {
+  await page.waitForSelector("a.bn-pagination-item:last-child", {
     visible: true,
   });
 
   const pageCount = await page.evaluate(() => {
     const element = document.querySelector(
-      "button.css-fyte2i:nth-last-child(2)"
+      "a.bn-pagination-item:last-child"
     );
     return element ? parseInt(element.innerText.replace(/[^0-9]/g, ""), 10) : 1;
   });
 
   const arrCurrency = [];
-  let i = 0;
-  while (pageCount > i) {
-    const arr = await page.evaluate((rate) => {
+  let i = 1;
+  while (pageCount >= i) {
+    const elements = await page.$$('.css-vurnku .flex-1 > div')
+    const len = elements.length
+    const arr = await page.evaluate(async (rate, len) => {
       function floatParser(str, rate) {
         return (parseFloat(str.replace(/[^0-9.]/g, "")) * rate).toFixed(2);
       }
-      let list = Array.from(
-        document.querySelectorAll('div[direction="ltr"]'),
-        (el) => ({
-          name: el
-            .querySelector(".tab__column")
-            .innerText.replace("\n", " | ")
-            .padStart(40, " "),
-          price: el
-            .querySelector('div[data-area="right"')
-            .innerText.trim()
-            .replace(",", " ")
-            .padStart(18, " "),
-          priceRu: floatParser(
-            el.querySelector('div[data-area="right"').innerText.trim(),
-            rate
-          ),
-        })
-      );
-      return list;
-    }, rubleExchangeRate);
+      const arr = []
+      let j = 0;
+      while (j < len) {
+        const l = [...document.querySelectorAll('.css-vurnku .flex-1 > div')].slice(j, j + 6)
+        let list = l.map((el) => {
+          const nameElement = el.querySelector(".bn-balink .flex.flex-wrap.items-center");
+          const priceElement = el.querySelector(".layout-ellipsis.body2");
+          j++
+          return {
+            name: nameElement
+              ? nameElement.innerText.replace("\n", " | ").padStart(40, " ")
+              : "Не найдено".padStart(40, " "),
+            price: priceElement
+              ? priceElement.innerText.trim().replace(",", " ").padStart(18, " ")
+              : "Не найдено".padStart(18, " "),
+            priceRu: priceElement
+              ? floatParser(priceElement.innerText.trim(), rate)
+              : 0,
+          };
+        }
+        );
+        arr.push(...list);
+        window.scrollBy(0, 400);
+        await new Promise((resolve) => setTimeout(resolve, 1500));
+      }
+      return arr
+    }, rubleExchangeRate, len);
 
-    await page.evaluate(() => {
-      window.scrollBy(0, 500);
-    });
-    await page.waitForSelector("#next-page", { visible: true });
-    await page.click("#next-page");
+    await page.waitForSelector(".bn-pagination-next", { visible: true });
+    await page.click(".bn-pagination-next");
     await new Promise((resolve) => {
       setTimeout(resolve, 500);
     });
@@ -115,14 +123,12 @@ import fs from "fs";
 
   fs.writeFileSync(
     "data.txt",
-    `${"\t".repeat(7)}Сегодня:  ${formattedDate}\n${
-      "\t".repeat(7)
-    }Курс доллара ${rubleExchangeRate} руб.\n${
-      "\t".repeat(7)
+    `${"\t".repeat(7)}Сегодня:  ${formattedDate}\n${"\t".repeat(7)
+    }Курс доллара ${rubleExchangeRate} руб.\n${"\t".repeat(7)
     }Курсы валют на сегодня:\n\n` +
-      arrCurrency
-        .map((el) => `${el.name}: ${el.price} | в рублях: ${el.priceRu}`)
-        .join("\n")
+    arrCurrency
+      .map((el) => `${el.name}: ${el.price} | в рублях: ${el.priceRu}`)
+      .join("\n")
   );
   console.log("Закончили!");
   await browser.close();
